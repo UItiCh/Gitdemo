@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-${name}
+${user.username}
+${user.password}
 </body>
 </html>

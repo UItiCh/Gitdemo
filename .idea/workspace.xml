@@ -12,9 +12,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="jar包">
+    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="Merge remote-tracking branch 'Gitdemo/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMvc3_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HG/controller/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HG/controller/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/ssuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -80,7 +88,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "库",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.3317919",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -190,7 +198,7 @@
       <workItem from="1684455480304" duration="1599000" />
       <workItem from="1684457095632" duration="461000" />
       <workItem from="1684457568633" duration="20000" />
-      <workItem from="1684457601549" duration="2550000" />
+      <workItem from="1684457601549" duration="6016000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1684458229263</created>
@@ -213,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684458978469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'Gitdemo/master'">
+      <created>1684460408585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684460408585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次" />
     <MESSAGE value="jar包" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar包" />
+    <MESSAGE value="Merge remote-tracking branch 'Gitdemo/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Gitdemo/master'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

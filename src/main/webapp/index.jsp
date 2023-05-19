@@ -2,7 +2,7 @@
 <html>
 <body>
 <h2>
-    <a href="/index">点击一下跳转</a>
+    <a href="/index/list/123456">点击一下跳转</a>
 </h2>
 </body>
 </html>
