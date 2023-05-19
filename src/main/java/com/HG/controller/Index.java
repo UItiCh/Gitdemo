@@ -1,8 +1,11 @@
 package com.HG.controller;
 
+import com.HG.pojo.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,9 +17,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class Index {
-    @RequestMapping("/index")
-    public String getIndex(Model model) {
-        model.addAttribute("name", "index");
-        return "ssuccess";
+    @RequestMapping("/index/{username}/{password}")
+    public String getIndex(@PathVariable("username") String username, @PathVariable("password") String password,Model model) {
+        User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+        System.out.println(user);
+
+        model.addAttribute("user", user);
+        return "success";
     }
 }
