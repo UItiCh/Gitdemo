@@ -18,10 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Index {
     @RequestMapping("/index/{username}/{password}")
-    public String getIndex(@PathVariable("username") String username, @PathVariable("password") String password,Model model) {
-        User user = new User();
-        user.setUsername(username);
-        user.setPassword(password);
+    public String getIndex(@PathVariable("username") String name, @PathVariable("password") String pswd,Model model) {
+        User user = new User(name, pswd);
         System.out.println(user);
 
         model.addAttribute("user", user);
