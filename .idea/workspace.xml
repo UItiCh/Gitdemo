@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="jar包" />
+    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="jar包">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -186,7 +190,7 @@
       <workItem from="1684455480304" duration="1599000" />
       <workItem from="1684457095632" duration="461000" />
       <workItem from="1684457568633" duration="20000" />
-      <workItem from="1684457601549" duration="1336000" />
+      <workItem from="1684457601549" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1684458229263</created>
@@ -202,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684458889894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jar包">
+      <created>1684458978469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684458978469</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
