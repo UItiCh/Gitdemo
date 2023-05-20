@@ -17,11 +17,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Index {
-    @RequestMapping("/index/{username}/{password}")
-    public String getIndex(@PathVariable("username") String name, @PathVariable("password") String pswd,Model model) {
-        User user = new User(name, pswd);
+    @RequestMapping("/index/{id}/{uname}/{pswd}")
+    public String getIndex(@PathVariable("id") Integer id,@PathVariable("uname") String name, @PathVariable("pswd") String pswd,Model model) {
+        User user = new User(id,name, pswd);
         System.out.println(user);
-
         model.addAttribute("user", user);
         return "success";
     }

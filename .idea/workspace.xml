@@ -13,11 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="Merge remote-tracking branch 'Gitdemo/master'">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMvc3_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HG/dao/impl/UserMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HG/controller/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HG/controller/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +87,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "工件",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.3317919",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "spring.boot",
-    "spring.configuration.checksum": "15e477276cdfeb16986aff1b3ee4d54d",
+    "spring.configuration.checksum": "471137e2a81fb34907415191cfb3c2c2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -209,6 +209,7 @@
       <workItem from="1684457568633" duration="20000" />
       <workItem from="1684457601549" duration="6475000" />
       <workItem from="1684464089683" duration="4933000" />
+      <workItem from="1684575987898" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1684458229263</created>
