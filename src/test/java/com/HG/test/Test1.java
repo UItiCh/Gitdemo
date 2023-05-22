@@ -1,8 +1,6 @@
 package com.HG.test;
 
-import com.HG.Service.UserService;
-import com.HG.dao.Impl.UserServiceImpl;
-import com.HG.dao.UserMapper;
+
 import com.HG.pojo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,13 +22,6 @@ import java.util.List;
 @ContextConfiguration(locations = "classpath:applicationContext.xml")
 public class Test1 {
 
-    @Autowired
-    private UserService userService;
-    @Test
-    public void testFindUserList(){
-        List<User> userList = userService.All();
-        System.out.println(userList);
-    }
 
 }
 

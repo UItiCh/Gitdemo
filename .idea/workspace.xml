@@ -12,12 +12,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="将没有运行起来的项目重新改正">
+    <list default="true" id="088e7335-5f75-40a4-a05c-53d6726ed398" name="更改" comment="Merge remote-tracking branch 'Gitdemo/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/HG/controller/UserController.java&#10;#&#9;src/main/java/com/HG/dao/Impl/UserServiceImpl.java&#10;#&#9;src/main/resources/applicationContext.xml&#10;#&#9;src/test/java/com/HG/test/Test1.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HG/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HG/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HG/dao/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HG/dao/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/HG/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/HG/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +76,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/putao/Desktop/SpringMvc3/src/main/resources",
+    "last_opened_file_path": "C:/Users/putao/Desktop/SpringMvc3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "全局库",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.3317919",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -106,7 +109,7 @@
       <recent name="C:\Users\putao\Desktop\SpringMvc3\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test1">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.87">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMvc3" />
       <extension name="coverage">
@@ -140,6 +143,7 @@
     </configuration>
     <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SpringMvc3:war exploded">
@@ -226,6 +230,11 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Test1" />
+      <item itemvalue="JUnit.Test1.testFindUserList" />
+      <item itemvalue="Tomcat 服务器.Tomcat 8.5.87" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test1" />
@@ -247,7 +256,12 @@
       <workItem from="1684457601549" duration="6475000" />
       <workItem from="1684464089683" duration="4933000" />
       <workItem from="1684575987898" duration="1838000" />
-      <workItem from="1684595606650" duration="7952000" />
+      <workItem from="1684595606650" duration="8166000" />
+      <workItem from="1684657987988" duration="1954000" />
+      <workItem from="1684660283421" duration="19000" />
+      <workItem from="1684660536375" duration="400000" />
+      <workItem from="1684661162104" duration="35000" />
+      <workItem from="1684716123338" duration="5031000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1684458229263</created>
@@ -354,7 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684603915344</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="将没有运行起来的项目重新改正">
+      <created>1684604692968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684604692968</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'Gitdemo/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/HG/controller/UserController.java&#10;#&#9;src/main/java/com/HG/dao/Impl/UserServiceImpl.java&#10;#&#9;src/main/resources/applicationContext.xml&#10;#&#9;src/test/java/com/HG/test/Test1.java">
+      <created>1684604736698</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684604736698</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'Gitdemo/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/HG/controller/UserController.java&#10;#&#9;src/main/java/com/HG/dao/Impl/UserServiceImpl.java&#10;#&#9;src/main/resources/applicationContext.xml&#10;#&#9;src/test/java/com/HG/test/Test1.java">
+      <created>1684719517297</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684719517297</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +423,8 @@
     <MESSAGE value="jar包" />
     <MESSAGE value="Merge remote-tracking branch 'Gitdemo/master'" />
     <MESSAGE value="将没有运行起来的项目重新改正" />
-    <option name="LAST_COMMIT_MESSAGE" value="将没有运行起来的项目重新改正" />
+    <MESSAGE value="Merge remote-tracking branch 'Gitdemo/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/HG/controller/UserController.java&#10;#&#9;src/main/java/com/HG/dao/Impl/UserServiceImpl.java&#10;#&#9;src/main/resources/applicationContext.xml&#10;#&#9;src/test/java/com/HG/test/Test1.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'Gitdemo/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/HG/controller/UserController.java&#10;#&#9;src/main/java/com/HG/dao/Impl/UserServiceImpl.java&#10;#&#9;src/main/resources/applicationContext.xml&#10;#&#9;src/test/java/com/HG/test/Test1.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

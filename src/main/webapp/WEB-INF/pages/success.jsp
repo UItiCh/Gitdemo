@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-${user.id}
-${user.name}
-${user.pswd}
+success
+
+
 </body>
 </html>
